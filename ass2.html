@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Management System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="p-4">
+    <div class="container">
+        <h1 class="text-center">Student Grade Management System</h1>
+        <form id="gradeForm" class="mb-4">
+            <div class="mb-3">
+                <label for="studentName" class="form-label">Student Name</label>
+                <input type="text" id="studentName" class="form-control" placeholder="Enter student's name" required>
+            </div>
+            <div class="mb-3">
+                <label for="mathGrade" class="form-label">Math Grade</label>
+                <input type="number" id="mathGrade" class="form-control" placeholder="Enter math grade" required>
+            </div>
+            <div class="mb-3">
+                <label for="scienceGrade" class="form-label">Science Grade</label>
+                <input type="number" id="scienceGrade" class="form-control" placeholder="Enter science grade" required>
+            </div>
+            <div class="mb-3">
+                <label for="englishGrade" class="form-label">English Grade</label>
+                <input type="number" id="englishGrade" class="form-control" placeholder="Enter English grade" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <h2 class="text-center">Results</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Math</th>
+                    <th>Science</th>
+                    <th>English</th>
+                    <th>Average</th>
+                    <th>Letter Grade</th>
+                </tr>
+            </thead>
+            <tbody id="studentTable">
+                <script type="text/javascript" src="C:\Users\lskdj\OneDrive\Desktop\S.hml\ass2.js"></script>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
